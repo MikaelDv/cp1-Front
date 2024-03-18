@@ -15,6 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
     top: 0;
 }
 .link{
@@ -26,5 +27,15 @@ header{
     color: #eebccd;
 }
 a{
-    
+    font-weight: 500;
+}
+main{
+    padding-top: 120px;
+}
+.site{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    width: 100vw;
+
 }
